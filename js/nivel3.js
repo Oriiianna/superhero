@@ -69,7 +69,7 @@ function crearPlaceholders() {
 
         const back = document.createElement("div");
         back.className = "position-absolute top-0 start-0 w-100 h-100 bg-warning rounded d-flex align-items-center justify-content-center";
-        back.innerHTML = `<img src="/img/bg-card.jpg" alt="deadpool" />`;
+        back.innerHTML = `<img src="../img/bg-card.jpg" alt="deadpool" />`;
 
         const front = document.createElement("div");
         front.className = "position-absolute top-0 start-0 w-100 h-100 rounded";
