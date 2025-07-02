@@ -17,7 +17,7 @@ const timeProgress = document.getElementById("time-progress");
 const progressWrapper = timeProgress.parentElement;
 const audioTap = document.getElementById("audio-tap");
 const audioVictory = document.getElementById("audio-victory");
-const audioFail = new Audio("/audio/fail.mp3");
+const audioFail = new Audio("../audio/fail.mp3");
 
 /*DOM*/
 function actualizarMensaje(extra = "") {
